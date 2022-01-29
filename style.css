@@ -53,3 +53,13 @@
   
     animation: slide 1s infinite linear;
 }
+  
+@keyframes slide {
+    0% {
+      left: 580px;
+    }
+  
+    100% {
+      left: -20px;
+    }
+}
