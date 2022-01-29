@@ -10,3 +10,6 @@ function jump() {
     }, 300);
   }
 }
+document.addEventListener("keydown", function (event) {
+  jump();
+});
