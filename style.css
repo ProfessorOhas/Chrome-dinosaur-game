@@ -40,3 +40,16 @@
       top: 70px;
     }
 }
+  
+#cactus {
+    width: 20px;
+    height: 40px;
+    position: relative;
+    top: 30px;
+    left: 580px;
+  
+    background-image: url("assets/cactus.png");
+    background-size: 20px 40px;
+  
+    animation: slide 1s infinite linear;
+}
